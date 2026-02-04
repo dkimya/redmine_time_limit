@@ -1,7 +1,7 @@
 # plugins/redmine_time_limit/init.rb
 Redmine::Plugin.register :redmine_time_limit do
-  name 'Redmine Time Limit'
-  author 'Your Name'
+  name 'Redmine Log Time Limit'
+  author 'Manage Petro'
   description 'Limits time entry logging to recent dates'
   version '0.1.0'
   
