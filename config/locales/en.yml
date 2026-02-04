@@ -1,0 +1,6 @@
+# plugins/redmine_time_limit/config/locales/en.yml
+en:
+  permission_log_time_without_limit: "Log time without date restrictions"
+  label_time_limit_days: "Time entry limit"
+  label_days: "days"
+  text_time_limit_description: "Users without 'Log time without limit' permission cannot log time older than this many days."

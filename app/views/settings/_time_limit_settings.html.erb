@@ -1,0 +1,9 @@
+<!-- plugins/redmine_time_limit/app/views/settings/_time_limit_settings.html.erb -->
+<p>
+  <label><%= l(:label_time_limit_days) %></label>
+  <%= text_field_tag 'settings[time_limit_days]', @settings['time_limit_days'], :size => 5 %>
+  <%= l(:label_days) %>
+</p>
+<p class="description">
+  <%= l(:text_time_limit_description) %>
+</p>
